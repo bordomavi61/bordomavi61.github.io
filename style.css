@@ -1,0 +1,133 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+#kutu {
+    background: rgba(5, 4, 0, 0.4);
+    width: 1000px;
+
+}
+
+#logo {
+    width: 20%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    height: 75px;
+    align-items: center;
+    border-radius: 20px 0 0 0;
+    background-color: aqua;
+
+
+
+}
+
+#menü {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    height: 75px;
+    align-items: center;
+    font-size: 1.2em;
+    border-radius: 0 20px 0 0;
+    background-color:cadetblue
+
+
+
+
+
+
+}
+
+#menü a {
+    text-decoration: none;
+    color: rgb(205, , 221);
+
+}
+
+#menü a:hover {
+    color: chartreuse;
+}
+
+#birinci {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #3c99eb;
+    border: 1px solid rgb(19, 48, 145);
+    margin: 10px 0px;
+
+}
+
+#ikinci {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid rgb(80, 204, 49);
+    border-radius: 20px 20px 20px 20px;
+    background-color: #102f4b;
+    margin: 20px 10px;
+
+
+
+
+
+}
+
+.kare img {
+    width: 200px;
+    height: 200px;
+
+
+}
+
+#ucuncu {
+    height: 75px;
+    border: 1px solid rgb(109, 29, 78);
+    border-radius: 20px 20px 20px 20px;
+    background-color: #80354b;
+    margin: 20px 10px;
+    color: #9ff35f;
+
+
+
+}
+
+#dördüncü {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid rgb(221, 60, 60);
+    border-radius: 20px 20px 0 0;
+    background-color: #3431db;
+    margin: 20px 10px;
+
+}
+
+.sosyalmedya a {
+    text-decoration: none;
+    color: bisque;
+    display: flex;
+    flex-direction: column;
+}
+
+.sosyalmedya a:hover {
+    color: darkgoldenrod;
+}
+
+.adres img {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+html {
+    background-image: url(res/png-transparent-sports-icon-collection-background-background-movement-work-out.png);
+   
+}
+html img{
+    background: scroll;
+}
